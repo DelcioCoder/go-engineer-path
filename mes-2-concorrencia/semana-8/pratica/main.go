@@ -1,0 +1,6 @@
+// Semana 8 — Benchmarks, Profiling e Generics
+// Execute: go test -bench=. -benchmem ./...
+// Profile: go test -bench=. -cpuprofile=cpu.out ./...
+package main
+
+// TODO: Adicionar benchmarks e funções genéricas
