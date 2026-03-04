@@ -9,6 +9,7 @@
 - **Declaração Explícita:** `var nome string = "Valor"`. Útil quando queremos ser bem claros sobre o tipo ou declarar sem inicializar logo.
 - **Escopo do Pacote:** Aprendi que em Go, ficheiros na mesma pasta pertencem ao mesmo pacote e partilham o mesmo espaço de nomes (não se pode ter dois `main` na mesma pasta).
 
+- **Declaração com Inferência de tipo:** `var idade = 22`. Uma das grandes utilidades desse tipo de declaração é a capacidade de utiliza-las fora do nível do escopo de funções.
 ---
 
 ## ❓ Dúvidas
