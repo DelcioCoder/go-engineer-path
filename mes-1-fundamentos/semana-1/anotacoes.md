@@ -6,15 +6,12 @@
 
 ## 💡 Insights
 
-<!-- Anote aqui coisas que te surpreenderam ou que são diferentes de outras linguagens -->
-
--
+- **Declaração Explícita:** `var nome string = "Valor"`. Útil quando queremos ser bem claros sobre o tipo ou declarar sem inicializar logo.
+- **Escopo do Pacote:** Aprendi que em Go, ficheiros na mesma pasta pertencem ao mesmo pacote e partilham o mesmo espaço de nomes (não se pode ter dois `main` na mesma pasta).
 
 ---
 
 ## ❓ Dúvidas
-
-<!-- Perguntas que surgiram durante o estudo -->
 
 -
 
@@ -22,9 +19,7 @@
 
 ## ⚠️ Armadilhas / Gotchas
 
-<!-- Erros que cometeu e como resolveu -->
-
--
+- **Erro `main redeclared`:** Se criar vários ficheiros `.go` na mesma pasta com `package main`, apenas um pode ter a função `main()`. A solução é criar subpastas para cada exercício.
 
 ---
 
