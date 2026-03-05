@@ -15,6 +15,9 @@
 - **Declaração curta:** `cidade := "Luanda`. É a forma mais idiomática de declarar variáveis em Go.
 - Essa forma de declaração, só é utilizada no escopo de funções, obrigatoriamente deve-se adicionar um valor inicial, o tipo é inferido automaticamente e podemos declarar varias variáveis ao mesmo tempo:
 - Ex: cidade, activo := "Luanda", true
+
+- **Zero Values:** Em Go, toda variável declarada tem um valor, independetemente de nós atribuirmos.
+- ou seja, se a gente declarar o seguinte: `var name string`, visto que não atribuímos um valor, o Go automaticamente atribuí o valor correspondente ao Zero Value daquele tipo. No caso dessa declaração à cima, o seu Zero Value é uma string vazia.
 ---
 
 ## ❓ Dúvidas

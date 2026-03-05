@@ -4,6 +4,11 @@ import "fmt"
 
 func main() {
 	fmt.Println("Aprender a declarar variaveis em Go")
+	var (
+		contador int
+		nome string
+		lista []int
+	)
 
 	// Forma explicita de declarar variáveis em Go
 	var name string = "Dercio"
@@ -19,4 +24,9 @@ func main() {
 	activo := true
 	fmt.Println("Cidade: ", cidade)
 	fmt.Println("Activo: ", activo)
+
+	// Zero Values
+	fmt.Println(contador)
+	fmt.Println(nome)
+	fmt.Println(lista)
 }
