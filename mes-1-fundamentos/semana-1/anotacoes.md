@@ -10,6 +10,11 @@
 - **Escopo do Pacote:** Aprendi que em Go, ficheiros na mesma pasta pertencem ao mesmo pacote e partilham o mesmo espaço de nomes (não se pode ter dois `main` na mesma pasta).
 
 - **Declaração com Inferência de tipo:** `var idade = 22`. Uma das grandes utilidades desse tipo de declaração é a capacidade de utiliza-las fora do nível do escopo de funções.
+
+
+- **Declaração curta:** `cidade := "Luanda`. É a forma mais idiomática de declarar variáveis em Go.
+- Essa forma de declaração, só é utilizada no escopo de funções, obrigatoriamente deve-se adicionar um valor inicial, o tipo é inferido automaticamente e podemos declarar varias variáveis ao mesmo tempo:
+- Ex: cidade, activo := "Luanda", true
 ---
 
 ## ❓ Dúvidas

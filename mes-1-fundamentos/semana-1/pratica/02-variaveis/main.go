@@ -13,4 +13,10 @@ func main() {
 	// Declaração com inferência de tipo 
 	var idade = 22
 	fmt.Println("Idade: ", idade)
+
+	// Declaração curta(short declaration)
+	cidade := "Luanda"
+	activo := true
+	fmt.Println("Cidade: ", cidade)
+	fmt.Println("Activo: ", activo)
 }
