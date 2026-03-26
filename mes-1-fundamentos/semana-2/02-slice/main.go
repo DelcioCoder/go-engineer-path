@@ -46,8 +46,9 @@ func main() {
 	// fmt.Println(b)
 
 	// Usando o pacote slices Go 1.21+
-	s := []int{3, 1, 4, 1, 5, 9}
-	// contem := slices.Contains(s, 4)
+    // s := []int{3, 1, 4, 1, 5, 9}
+    // isContain := slices.Contains(s, 4)
+    //    fmt.Println(isContain)
 	// slices.Sort(s)
 	// // Clone (cópia profunda)
 	// copia := slices.Clone(s)
@@ -56,7 +57,7 @@ func main() {
 	// fmt.Println(s)
 	// fmt.Println(copia)
 
-	copia := make([]int, len(s))
-	copy(copia, s)
-	fmt.Println("Slice copiado", copia)
+	// copia := make([]int, len(s))
+	// copy(copia, s)
+	// fmt.Println("Slice copiado", copia)
 }
